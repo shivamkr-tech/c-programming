@@ -1,0 +1,89 @@
+
+#include <stdio.h>
+
+int main() {
+    int age =16;
+    if(age>5){
+        printf("your age greater than 5\n");
+    }
+    
+    
+    else{
+        printf("Your age not greater than 5");
+    }
+    
+    //another use of if and else
+    
+    if(age%5==0){
+        printf("Your age is divisible by 5");
+    }
+    
+    else{
+        printf("Your age is not divisible by 5");
+    }
+    
+    
+     if(1){
+        printf("This if is executed!\n");
+    }
+    if(2345){
+        printf("This if is also executed!\n");
+    }
+    if(2.74){
+        printf("This if is also executed!\n");
+    }
+    if('c'){
+        printf("This character inside if is also executed!\n");
+    }
+    if(0){
+        printf("I am zero - I am not executed\n"); //this will not valid
+    }
+    
+    
+    
+    
+        int a=1; int b=1;
+    printf("The value of a and b is %d\n", a&&b);
+    printf("The value of a or b is %d\n", a||b);
+    printf("The value of not(a) is %d\n", !a);
+
+    if(a && b){
+        printf("both are true\n");
+    }
+    // is same as writing ....
+    if(a){
+        if(b){
+            printf("both are true\n");
+        }
+    }
+    
+    
+    
+    int umar=65;
+    
+    if(umar>60){
+        
+        printf("You are senior citizen , You can drive every thing\n");
+    }
+    
+    else if(umar>18){
+        printf("You Can drive\n");
+    }
+    
+    else{
+        printf("You cannot drive\n");
+    }
+    
+     // condition ? expression-if-true : expression-if-false   
+    // "?" and ":" are called Ternary Operators
+    
+    int n=245;
+    int m=28;
+    
+    n>m?printf("n is Greater"):printf("m is Greater");
+    
+    
+    
+    
+	return 0;
+}
