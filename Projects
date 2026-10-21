@@ -1,0 +1,19 @@
+// write a programme to check whether a number is even or odd
+
+#include <stdio.h>
+
+int main(){
+    int num;
+    printf("Enter Your Num.\n", num);
+    scanf("%d", &num);
+    
+    if(num%2==0){
+        printf("This No. is Even");
+    }
+    
+    else {
+        printf("This No. is Odd");
+    }
+    
+    return 0;
+}
